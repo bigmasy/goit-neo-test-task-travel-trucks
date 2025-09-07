@@ -80,7 +80,7 @@ const Filters = () => {
             startAdornment: (
               <Box sx={{ mr: 1, display: "flex", alignItems: "center" }}>
                 <svg width="20" height="20" style={{ verticalAlign: "middle" }}>
-                  <use href="/public/sprite.svg#map" />
+                  <use href="/sprite.svg#map" />
                 </svg>
               </Box>
             ),

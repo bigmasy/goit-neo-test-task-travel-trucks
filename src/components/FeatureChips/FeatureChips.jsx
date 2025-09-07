@@ -36,11 +36,7 @@ const FeatureChips = ({ features }) => {
             }}
             icon={
               <svg width="20" height="20" style={{ verticalAlign: "middle" }}>
-                <use
-                  href={`/public/sprite.svg#${iconId}`}
-                  width="20"
-                  height="20"
-                />
+                <use href={`/sprite.svg#${iconId}`} width="20" height="20" />
               </svg>
             }
           />

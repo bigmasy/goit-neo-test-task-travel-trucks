@@ -28,7 +28,7 @@ const CardHeader = ({ name, price, id }) => {
           }}
         >
           <svg width="26" height="24">
-            <use href={`/public/sprite.svg#${isFavorite ? "Fav" : "noFav"}`} />
+            <use href={`/sprite.svg#${isFavorite ? "Fav" : "noFav"}`} />
           </svg>
         </button>
       </Box>

@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import AppBar from "../AppBar/AppBar";
 import "./App.css";
 import { Toaster } from "react-hot-toast";
+import Loader from "../Loader/Loader";
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
 const CatalogPage = lazy(() => import("../../pages/СatalogPage/CatalogPage"));
@@ -20,8 +21,7 @@ function App() {
     <>
       <AppBar />
       <Toaster />
-
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/catalog" element={<CatalogPage />} />

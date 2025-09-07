@@ -60,7 +60,7 @@ const CatalogPage = () => {
 
       <Box sx={{ flex: 1 }}>
         {loading && <Loader />}
-        {error && <ErrorMessage message={error} />}
+        {error && <ErrorMessage message={error?.message || error} />}
         {!loading && !error && <CatalogList />}
         {!loading && !error && showLoadMoreButton && (
           <Button

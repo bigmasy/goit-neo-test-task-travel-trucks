@@ -20,7 +20,7 @@ const FilterOption = memo(({ label, iconId, onClick, isSelected, width }) => (
   >
     <Box sx={{ width: 32, height: 32, mb: 0.5, display: "flex" }}>
       <svg width="32" height="32">
-        <use href={`/public/sprite.svg#${iconId}`} />
+        <use href={`/sprite.svg#${iconId}`} />
       </svg>
     </Box>
     <Typography variant="body2">

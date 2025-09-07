@@ -3,12 +3,12 @@ import SvgIcon from "@mui/material/SvgIcon";
 
 const StarIcon = (props) => (
   <SvgIcon {...props}>
-    <use href={"/public/sprite.svg#Rating"} />
+    <use href={"/sprite.svg#Rating"} />
   </SvgIcon>
 );
 const StarBorderIcon = (props) => (
   <SvgIcon {...props}>
-    <use href={"/public/sprite.svg#NoRating"} />
+    <use href={"/sprite.svg#NoRating"} />
   </SvgIcon>
 );
 
