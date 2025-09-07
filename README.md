@@ -38,9 +38,8 @@ The project will be available at [http://localhost:3000](http://localhost:3000)
 ## Technologies
 
 - Frontend: React, Redux Toolkit, React Router v6, CSS Modules, MUI (Material UI)
-- Backend: Node.js, Express (mock API used)
 - HTTP Requests: Axios
-- Deployment: Render, Vercel
+- Deployment: Vercel
 
 ## Routes
 
