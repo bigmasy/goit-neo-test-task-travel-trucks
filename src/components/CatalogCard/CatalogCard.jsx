@@ -59,6 +59,7 @@ const CatalogCard = ({ camper }) => {
           to={`/catalog/${camper.id}/features`}
           variant="contained"
           color="error"
+          target="_blank"
           sx={{
             alignSelf: "flex-start",
             borderRadius: "999px",
